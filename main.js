@@ -50,6 +50,12 @@ async function bootstrap() {
     }
   })
 
+  app.get('/health', (request, reply) => {
+    reply.status(200).send({
+      status: 'ok'
+    })
+  })
+
   // fastify服务器一定要手动指定ip
   app.listen({ port: 3174, host: '0.0.0.0' }, () => {
     const endTime = new Date()
