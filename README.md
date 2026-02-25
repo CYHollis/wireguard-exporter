@@ -43,6 +43,7 @@ http GET http://localhost:3174?action=ShowAllDump
             "interface": "wg0",
             "privateKey": "OJLjhW6f7DzSLZxKOGolwJTI6ZVpeedi888BIF35G1w=",
             "publicKey": "HK5Z7RHxkinSBMDYKYq25231ngu4dmgBo8j5vRDzRic=",
+            "endpoint":  "192.168.1.6:51820",
             "listenPort": "51820",
             "fwmark": "off",
             "peers": [{
